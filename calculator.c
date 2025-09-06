@@ -12,7 +12,7 @@ int multiply(int a, int b) {
 	return a * b;
 }
 
-int divide(int a, int b) {
+float divide(float a, float b) {
 	return a / b;
 }
 
@@ -46,8 +46,8 @@ int main() {
 		int ans = multiply(number1, number2);
 		printf("Your answer is: %d", ans);
 	}
-	else if (num == 3) {
-		int ans = divide(number1, number2);
-		printf("Your answer is: %d", ans);
+	else if (num == 4) {
+		float ans = divide(number1, number2);
+		printf("Your answer is: %1f", ans);
 	}
 }	
